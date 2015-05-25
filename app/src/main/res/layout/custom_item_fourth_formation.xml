@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+
+        android:hint="Nom d'utilisateur"
+        android:ems="10"
+        android:id="@+id/custom_item_fourth_formation_login"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+
+        android:hint="Mot de passe"
+        android:ems="10"
+        android:id="@+id/custom_item_fourth_formation_motdepasse"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+
+        android:hint="Type"
+        android:ems="10"
+        android:id="@+id/custom_item_fourth_formation_type" />
+
+    <Button
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:text="Ajouter un contact"
+        android:id="@+id/custom_item_fourth_formation_encore_un_nouveau"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
